@@ -1,0 +1,20 @@
+.casesInput {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 18px;
+  resize: vertical;
+}
+
+.tableRow {
+  width: 100%;
+}
+
+.tableHeading,
+.tableData {
+  width: 50%;
+  text-align: center;
+}
+
+.tableData {
+  border: 1px solid #1d3557;
+}
