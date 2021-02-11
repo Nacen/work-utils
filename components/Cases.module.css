@@ -18,3 +18,13 @@
 .tableData {
   border: 1px solid #1d3557;
 }
+
+.copyButton {
+  padding: 10px;
+  /* margin: 0 5%; */
+  font-size: 18px;
+  border: none;
+  background-color: #43aa8b;
+  color: #fefae0;
+  margin: 20px 0;
+}

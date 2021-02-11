@@ -56,7 +56,7 @@ const Cases = () => {
         onChange={(evt) => setInputValue(evt.target.value)}
         className={styles.casesInput}
       />
-      <button onClick={copyToClipBoard}>Copy</button>
+      <button className={styles.copyButton} onClick={copyToClipBoard}>Copy Table</button>
       <table ref={tableRef}>
         <tr className={styles.tableRow}>
           <th className={styles.tableHeading}>Name</th>
