@@ -37,18 +37,20 @@ const Cases = () => {
 
   return (
     <div>
-      <label htmlFor="quantifier">Case Number Quantifier: {quantifier}</label>
+      <label htmlFor="quantifier" className={styles.label}>Case Number Quantifier: {quantifier}</label>
       <input
         id="quantifier"
         value={quantifier}
         type="number"
         onChange={(evt) => setQuantifier(evt.target.value)}
+        className={styles.input}
       />
-      <label htmlFor="name">Set Name</label>
+      <label htmlFor="name" className={styles.label}>Set Name</label>
       <input
         id="name"
         value={name}
         onChange={(evt) => setName(evt.target.value)}
+        className={styles.input}
       />
       <h3>Enter Case Number</h3>
       <textarea
@@ -57,7 +59,7 @@ const Cases = () => {
         className={styles.casesInput}
       />
       <button className={styles.copyButton} onClick={copyToClipBoard}>Copy Table</button>
-      <table ref={tableRef}>
+      <table ref={tableRef} className={styles.table}>
         <tr className={styles.tableRow}>
           <th className={styles.tableHeading}>Name</th>
           <th className={styles.tableHeading}>Case Number</th>

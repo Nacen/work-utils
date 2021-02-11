@@ -5,6 +5,15 @@
   resize: vertical;
 }
 
+.label {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.table {
+  width: 100%;
+}
+
 .tableRow {
   width: 100%;
 }
@@ -19,12 +28,17 @@
   border: 1px solid #1d3557;
 }
 
+.input {
+  width: 100%;
+  padding: 5px;
+}
+
 .copyButton {
   padding: 10px;
-  /* margin: 0 5%; */
   font-size: 18px;
   border: none;
   background-color: #43aa8b;
   color: #fefae0;
   margin: 20px 0;
+  width: 100%;
 }
